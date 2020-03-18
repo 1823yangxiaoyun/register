@@ -73,7 +73,22 @@ $(function (){
         }
         return true;
     }
-
+    $name.focus(function(){
+        $name.css("borderColor", "#2E58FF");
+        $nerror.html('')
+    })
+    $number.focus(function(){
+        $number.css("borderColor", "#2E58FF")
+        $merror.html('')
+    })
+    $psd.focus(function(){
+        $psd.css("borderColor", "#2E58FF")
+        $perror.html('')
+    })
+    $ypsd.focus(function(){
+        $ypsd.css("borderColor", "#2E58FF")
+        $yerror.html('')
+    })
     $name.focusout(function () {
         if (!testName()) {
             $name.css("borderColor", "red")

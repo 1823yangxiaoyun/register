@@ -145,15 +145,3 @@
     left: 97px;
     top: 43px;
 }
-#name:focus{
-    border-color:#2E58FF;
-}
-#number:focus{
-    border-color:#2E58FF;
-}
-#psd:focus{
-    border-color:#2E58FF;
-}
-#ypsd:focus{
-    border-color:#2E58FF;
-}
