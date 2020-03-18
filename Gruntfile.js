@@ -8,19 +8,19 @@ module.exports=function(grunt){
       },
   files:{
     src:'./baidu.html',
-    dest:'./min/baidu.html'
+    dest:'min/baidu.html'
   }
   },
   cssmin:{
-    './min/baidu.css':'./baidu.css'
+    'min/baidu.css':'./baidu.css'
   },
   uglify:{
-     './min/baidu.js':'./baidu.js'
+     'min/baidu.js':'./baidu.js'
   }
   });
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-   grunt.registerTask('default', ['uglify', 'cssmin', 'htmlmin']);
+   grunt.registerTask('default', [ 'cssmin', 'htmlmin','uglify']);
 };

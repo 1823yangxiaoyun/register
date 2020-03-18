@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "任务二",
   "main": "baidu.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "grunt": "^1.1.0",
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-htmlmin": "^3.1.0",
     "grunt-contrib-uglify": "^4.0.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
