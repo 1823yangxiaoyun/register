@@ -1,0 +1,26 @@
+{
+  "name": "register",
+  "version": "1.0.0",
+  "description": "任务二",
+  "main": "baidu.js",
+  "dependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-uglify": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1823yangxiaoyun/register.git"
+  },
+  "author": "yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1823yangxiaoyun/register/issues"
+  },
+  "homepage": "https://github.com/1823yangxiaoyun/register#readme"
+}
