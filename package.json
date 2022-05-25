@@ -5,7 +5,7 @@
   "main": "baidu.js",
   "dependencies": {},
   "devDependencies": {
-    "grunt": "^1.1.0",
+    "grunt": "^1.5.3",
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-htmlmin": "^3.1.0",
     "grunt-contrib-uglify": "^4.0.1"
